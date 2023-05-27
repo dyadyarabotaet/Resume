@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="author" content="Daniil Vasilev">
+  <meta name="description" content="resume">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/basic_style.css">
+  <link rel="stylesheet" href="css/adaptive_style.css">
+  <title>Daniil's resume</title>
+ </head>
+ <body class="page">
+   <header class="page-header">
+     <div class="header-burger" hidden>
+       <input id="toggle-burger-off" type="checkbox"></input>
+       <label for="toggle-burger-off" class="burger-off"><img src="img/cross.svg" alt="close menu"></label>
+       <ul class="menu-list">
+         <li class="menu-list-item"><a href="#">About</a></li>
+         <li class="menu-list-item"><a href="#">Works</a></li>
+         <li class="menu-list-item"><a href="#">Prices</a></li>
+         <li class="menu-list-item"><a href="#">Contacts</a></li>
+       </ul>
+     </div>
+      <div class="navigation">
+        <input id="toggle-burger" type="checkbox"></input>
+        <label for="toggle-burger" class="burger-open"><img src="img/burger.svg" alt="open menu"></label>
+        <ul class="navigation-list">
+          <li class="navigation-list-item"><a href="#about">Обо мне</a></li>
+          <li class="navigation-list-item"><a href="#my-works">Портфолио</a></li>
+          <li class="navigation-list-item"><a href="#contact-me-name">Связь</a></li>
+        </ul>
+     </div>
+     <div class="header-main">
+       <h2>&lt;title&gt;</h2>
+       <h1>Daniil</h1>
+       <div class="header-main-bottom">
+         <p>front-end developer</p>
+         <div class="navigation-contact-me"><a href="#contact-me-name">Написать мне</a></div>
+       </div>
+     </div>
+     <img src="img/profile_pic.jpg" alt="My photo" width="300px" height="300px" class="profile-pic">
+   </header>
+   <main class="main-content">
+      <section class="about" id="about">
+       <h2>&lt;О себе&gt;</h2>
+       <div class="about-p-and-skills">
+         <h3>&lt;p&gt;</h3>
+         <p>Всем привет! Меня зовут Даниил, я Front-end developer. С тех пор как я только впервые познакомился с HTML, я увидел новый мир полный возможностей, восхитился его необъятной глубиной и до сих пор постоянно открываю для себя его новые перспективы. Я понял, что it сфера - это авангард и я хочу и могу стать его частью.</p>
+         <h3>&lt;навыки&gt;</h3>
+         <ul class="skills-list">
+           <li class="skills-list-item"><p>HTML 5</p></li>
+           <li class="skills-list-item"><p>CSS</p></li>
+           <li class="skills-list-item"><p>JS</p></li>
+           <li class="skills-list-item"><p>Figma</p></li>
+         </ul>
+       </div>
+     </section>
+     <section class="my-works" id="my-works">
+     <button type="button" name="scroll-left" title="scroll left"><img src="img/swipe_left.svg" alt="swipe left" width="16px" height="16px"></button>
+      <div class="my-works-content">
+       <ul class="my-works-menu">
+         <li class="my-works-menu-item selected"><p>Все мои работы</p></li>
+         <li class="my-works-menu-item"><p>Верстка</p></li>
+         <li class="my-works-menu-item"><p>Дизайн</p></li>
+       </ul>
+       <ul class="projects-list">
+         <li class="projects-list-item">
+           <img src="img/plug.jpg" alt="1st project" width="308px" height="281px">
+           <h2>Проект 1</h2>
+           <p>Описание 1</p>
+         </li>
+         <li class="projects-list-item">
+           <img src="img/plug.jpg" alt="2nd project" width="308px" height="281px">
+           <h2>Проект 2</h2>
+           <p>Описание 2</p>
+         </li>
+         <li class="projects-list-item">
+           <img src="img/plug.jpg" alt="3rd project" width="308px" height="281px">
+           <h2>Проект 3</h2>
+           <p>Описание 3</p>
+         </li>
+       </ul>
+       </div>
+      <button type="button" name="scroll-right" title="scroll right"><img src="img/swipe_right.svg" alt="swipe right" width="16px" height="16px"></button>
+     </section>
+     <section class="social">
+       <ul class="social-list">
+         <li class="social-list-item"><a href="#"><img src="img/vk.svg" alt="ВКонтакте" class="vk" width="50px" height="50px"></a></li>
+         <li class="social-list-item"><a href="#"><img src="img/instagram.svg" alt="Instagram" class="inst" width="50px" height="50px"></a></li>
+         <li class="social-list-item"><a href="#"><img src="img/telegram.svg" alt="Telegram" class="tg" width="50px" height="50px"></a></li>
+       </ul>
+     </section>
+     <section class="contact-me" id="contact-me">
+       <h2>Написать письмо</h2>
+       <form class="contact-me-form" action="index.html" method="post">
+         <label for="contact-me-name">Имя</label>
+         <input type="text" name="contact-me-name" id="contact-me-name" value="" placeholder="Введите свое имя">
+         <label for="contact-me-email">Email</label>
+         <input type="text" name="contact-me-email" id="contact-me-email" value="" placeholder="Example@gmail.com">
+         <label for="contact-me-message">Сообщение</label>
+         <input type="text" name="contact-me-message" id="contact-me-message" value="" placeholder="Введите текст тут">
+         <div class="checkbox-container">
+           <input type="checkbox" name="contact-me-checkbox" id="contact-me-checkbox">
+           <label for="contact-me-checkbox"></label>
+           <label for="contact-me-checkbox" id="shit">Согласен на <a href="#">обработку данных</a></label>
+         </div>
+         <div class="submit-box">
+           <button type="submit" name="contact-me-submit">Отправить</button>
+           <div class="submit-decoration"></div>
+         </div>
+       </form>
+     </section>
+   </main>
+   <footer class="page-footer">
+     <p class="authors-name">Daniil</p>
+     <p>front-end developer</p>
+   </footer>
+ </body>
+</html>
