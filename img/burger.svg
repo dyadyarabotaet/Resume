@@ -1,17 +1,14 @@
-<svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_1590_71)">
-<path d="M18.5654 10.1927C18.5654 9.8802 18.3065 9.62127 17.994 9.62127H5.42258C5.11008 9.62127 4.85115 9.8802 4.85115 10.1927V11.3356C4.85115 11.6481 5.11008 11.907 5.42258 11.907H17.994C18.3065 11.907 18.5654 11.6481 18.5654 11.3356V10.1927ZM18.5654 5.62127C18.5654 5.30877 18.3065 5.04984 17.994 5.04984H5.42258C5.11008 5.04984 4.85115 5.30877 4.85115 5.62127V6.76412C4.85115 7.07662 5.11008 7.33555 5.42258 7.33555H17.994C18.3065 7.33555 18.5654 7.07662 18.5654 6.76412V5.62127ZM18.5654 1.04984C18.5654 0.737339 18.3065 0.478411 17.994 0.478411H5.42258C5.11008 0.478411 4.85115 0.737339 4.85115 1.04984V2.1927C4.85115 2.5052 5.11008 2.76412 5.42258 2.76412H17.994C18.3065 2.76412 18.5654 2.5052 18.5654 2.1927V1.04984Z" fill="white"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250.6 250.6" style="enable-background:new 0 0 250.6 250.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="Menu">
+	<path class="st0" d="M22.4,76.1h205.8c12.4,0,22.4-10,22.4-22.4s-10-22.4-22.4-22.4H22.4C10,31.3,0,41.3,0,53.7
+		C0,66.1,10,76.1,22.4,76.1z M228.2,102.9H22.4C10,102.9,0,112.9,0,125.3c0,12.4,10,22.4,22.4,22.4h205.8c12.4,0,22.4-10,22.4-22.4
+		C250.6,112.9,240.6,102.9,228.2,102.9z M228.2,174.5H22.4C10,174.5,0,184.5,0,196.9c0,12.4,10,22.4,22.4,22.4h205.8
+		c12.4,0,22.4-10,22.4-22.4C250.6,184.5,240.6,174.5,228.2,174.5z"/>
 </g>
-<defs>
-<filter id="filter0_d_1590_71" x="0.851135" y="0.478409" width="21.7143" height="19.4286" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1590_71"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1590_71" result="shape"/>
-</filter>
-</defs>
 </svg>
