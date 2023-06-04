@@ -652,7 +652,7 @@
 
 .submit-box {
   display: flex;
-  width: 176px;
+  width: 180px;
   margin: 0 auto;
   transition: all 500ms ease;
 }
