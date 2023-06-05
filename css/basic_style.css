@@ -564,6 +564,7 @@
 
 .contact-me textarea {
   height: 24px;
+  max-height: 128px;
   resize: none;
   filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.05));
 }

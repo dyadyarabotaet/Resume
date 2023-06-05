@@ -258,6 +258,8 @@
               name="contact-me-name"
               id="contact-me-name"
               placeholder="Введите свое имя"
+              maxlength="30"
+              required
             />
             <label for="contact-me-email">Email</label>
             <input
@@ -265,13 +267,16 @@
               name="contact-me-email"
               id="contact-me-email"
               placeholder="Example@gmail.com"
+              maxlength="254"
+              required
             />
             <label for="contact-me-message">Сообщение</label>
             <textarea
               name="contact-me-message"
               id="contact-me-message"
               placeholder="Введите текст тут"
-              maxlength="220"
+              maxlength="250"
+              required
             ></textarea>
             <div class="checkbox-container">
               <label for="contact-me-checkbox">
@@ -279,6 +284,7 @@
                   type="checkbox"
                   name="contact-me-checkbox"
                   id="contact-me-checkbox"
+                  required
                 />
                 <div class="custom-checkbox"></div>
                 <span>Согласен на&nbsp;</span>
@@ -303,5 +309,6 @@
       <p class="specialization">front-end developer</p>
     </footer>
     <script src="scripts/header_burger.js"></script>
+    <script src="scripts/auto_resizing_textarea.js"></script>
   </body>
 </html>
