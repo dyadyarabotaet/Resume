@@ -93,7 +93,7 @@
 }
 
 #toggle-burger {
-  display: none;
+  /* display: none; */
 }
 
 .burger-open {
@@ -752,7 +752,7 @@
 }
 
 .header-burger #toggle-burger-off {
-  display: none;
+  /* display: none; */
 }
 
 .header-burger .burger-off {
