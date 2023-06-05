@@ -733,7 +733,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 1000px;
+  top: -750px;
   z-index: 10;
   width: 100%;
   height: 740px;
@@ -742,6 +742,7 @@
   font-weight: 900;
   color: white;
   background-color: var(--main-color);
+  transition: all 500ms ease;
 }
 
 .header-burger .burger-off-box {
