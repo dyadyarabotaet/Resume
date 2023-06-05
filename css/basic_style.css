@@ -666,6 +666,7 @@
 }
 
 .submit-box .contact-me-submit {
+  width: 160px;
   height: 40px;
   padding: 8px 56px 8px 24px;
   border: none;
