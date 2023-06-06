@@ -38,16 +38,30 @@
         </div>
         <ul class="menu-list">
           <li class="menu-list-item">
-            <a href="#about">About</a>
+            <a href="#about" onclick="scrollToSection(event, '#about', -88)"
+              >About</a
+            >
           </li>
           <li class="menu-list-item">
-            <a href="#my-works">Works</a>
+            <a
+              href="#my-works"
+              onclick="scrollToSection(event, '#my-works', -88)"
+              >Works</a
+            >
           </li>
           <li class="menu-list-item">
-            <a href="#my-works">Prices</a>
+            <a
+              href="#my-works"
+              onclick="scrollToSection(event, '#my-works', -88)"
+              >Prices</a
+            >
           </li>
           <li class="menu-list-item">
-            <a href="#contact-me-name">Contacts</a>
+            <a
+              href="#contact-me-name"
+              onclick="scrollToSection(event, '#contact-me-name', -88)"
+              >Contacts</a
+            >
           </li>
         </ul>
       </div>
@@ -68,15 +82,29 @@
         </label>
         <ul class="navigation-list">
           <li class="navigation-list-item">
-            <a class="navigation-list-item-link" href="#about"> Обо мне </a>
+            <a
+              class="navigation-list-item-link"
+              href="#about"
+              onclick="scrollToSection(event, '#about', -88)"
+            >
+              Обо мне
+            </a>
           </li>
           <li class="navigation-list-item">
-            <a class="navigation-list-item-link" href="#my-works">
+            <a
+              class="navigation-list-item-link"
+              href="#my-works"
+              onclick="scrollToSection(event, '#my-works', -88)"
+            >
               Портфолио
             </a>
           </li>
           <li class="navigation-list-item">
-            <a class="navigation-list-item-link" href="#contact-me-name">
+            <a
+              class="navigation-list-item-link"
+              href="#contact-me-name"
+              onclick="scrollToSection(event, '#contact-me-name', -88)"
+            >
               Связь
             </a>
           </li>
@@ -89,7 +117,11 @@
         <div class="header-main-bottom">
           <p class="specialization">front-end developer</p>
           <div class="navigation-contact-me">
-            <a class="navigation-contact-me-link" href="#contact-me-name">
+            <a
+              class="navigation-contact-me-link"
+              href="#contact-me-name"
+              onclick="scrollToSection(event, '#contact-me-name', -88)"
+            >
               Написать мне
             </a>
           </div>
@@ -310,5 +342,6 @@
     </footer>
     <script src="scripts/header_burger.js"></script>
     <script src="scripts/auto_resizing_textarea.js"></script>
+    <script src="scripts/scrolling_higher.js"></script>
   </body>
 </html>
