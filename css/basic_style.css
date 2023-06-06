@@ -59,7 +59,7 @@
   background-image: url("../img/mothership.png"),
     url("../img/rolling_stones.png");
   background-repeat: no-repeat;
-  background-position: left 50px top 580px, right -100px top 1280px;
+  background-position: left 50px top 560px, right -100px top 1280px;
 }
 
 .page-header {
@@ -803,4 +803,60 @@
 .header-burger .menu-list-item a {
   text-decoration: none;
   color: white;
+}
+
+/* scrollbar */
+/*  WebKit-browsers */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: #333333;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  }
+
+  body::-moz-scrollbar {
+    width: 12px;
+  }
+
+  body::-moz-scrollbar-track {
+    background-color: #333333;
+  }
+
+  body::-moz-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  body::-moz-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 }
