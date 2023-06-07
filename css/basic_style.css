@@ -83,6 +83,11 @@
   width: 100%;
   background-color: var(--main-color);
   opacity: 0.99;
+  transition: background-color 250ms ease;
+}
+
+.sticky-header.blured-backdrop {
+  background-color: transparent;
 }
 
 .sticky-header .navigation {
@@ -101,7 +106,7 @@
   height: 16px;
   padding: 6px;
   cursor: pointer;
-  transition: all 500ms ease;
+  transition: filter 500ms ease;
 }
 
 .burger-open img {
@@ -122,7 +127,6 @@
   margin: 0 0 0 auto;
   list-style: none;
 }
-
 .navigation-list-item {
   display: flex;
 }
@@ -210,7 +214,7 @@
 
 .navigation-contact-me {
   display: flex;
-  transition: all 500ms ease;
+  transition: filter 500ms ease;
 }
 
 .navigation-contact-me-link {
@@ -569,7 +573,7 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--main-color);
-  transition: all 500ms ease;
+  transition: filter 500ms ease;
 }
 
 .contact-me input:not(#conact-me-checkbox, [type="submit"]):hover {
@@ -654,13 +658,12 @@
 .checkbox-container label a {
   margin: 0;
   color: #2d9cdb;
-  transition: all 250ms ease;
 }
 
 .checkbox-container label div,
 .checkbox-container label span,
 .checkbox-container label a {
-  transition: all 250ms ease;
+  transition: opacity 250ms ease;
 }
 
 .checkbox-container label div:hover,
@@ -680,7 +683,6 @@
   width: 180px;
   height: 40px;
   margin: 0 auto;
-  transition: all 500ms ease;
 }
 
 .submit-box::after {
@@ -741,7 +743,7 @@
   font-size: 44px;
   line-height: 44px;
   font-weight: 900;
-  transition: all 500ms ease;
+  transition: filter 500ms ease;
 }
 
 .page-footer .authors-name:hover {
@@ -787,7 +789,7 @@
   padding: 6px;
   margin: 24px auto 24px 0;
   cursor: pointer;
-  transition: all 500ms ease;
+  transition: filter 500ms ease;
 }
 
 .header-burger .burger-off:hover {
@@ -809,7 +811,7 @@
 
 .header-burger .menu-list-item {
   margin: 0 auto;
-  transition: all 500ms ease;
+  transition: filter 500ms ease;
 }
 
 .header-burger .menu-list-item:hover {
