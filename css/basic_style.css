@@ -59,7 +59,7 @@
   background-image: url("../img/mothership.png"),
     url("../img/rolling_stones.png");
   background-repeat: no-repeat;
-  background-position: left 50px top 560px, right -100px top 1280px;
+  background-position: left 50px top 545px, right -100px top 1280px;
 }
 
 .page-header {
@@ -89,7 +89,7 @@
   display: flex;
   width: 972px;
   margin: 0 auto;
-  padding: 32px 25px 28px;
+  padding: 24px 25px;
 }
 
 #toggle-burger {
@@ -102,6 +102,10 @@
   padding: 6px;
   cursor: pointer;
   transition: all 500ms ease;
+}
+
+.burger-open img {
+  display: block;
 }
 
 .burger-open:hover {
@@ -210,6 +214,7 @@
 }
 
 .navigation-contact-me-link {
+  width: 100px;
   padding: 8px 24px;
   border: none;
   font-size: 16px;
@@ -311,15 +316,31 @@
 }
 
 .skills-list-item:nth-of-type(3) .skills-list-item-filling {
-  width: 40%;
+  width: 35%;
 }
 
 .skills-list-item:nth-of-type(4) .skills-list-item-filling {
   width: 15%;
 }
 
+.skills-list-item:nth-of-type(5) .skills-list-item-filling {
+  width: 25%;
+}
+
+.skills-list-item:nth-of-type(6) .skills-list-item-filling {
+  width: 40%;
+}
+
+.skills-list-item:nth-of-type(7) .skills-list-item-filling {
+  width: 30%;
+}
+
+.skills-list-item:nth-of-type(8) .skills-list-item-filling {
+  width: 55%;
+}
+
 .skills-list::before {
-  content: "<навыки>";
+  content: "<skills>";
   display: block;
   margin-bottom: 24px;
   font-size: 18px;
@@ -328,7 +349,7 @@
 }
 
 .skills-list::after {
-  content: "< ⁄ навыки>";
+  content: "< ⁄ skills>";
   display: block;
   margin: 24px 0 40px 0;
   font-size: 18px;
@@ -337,7 +358,7 @@
 }
 
 .about-text-and-skills::before {
-  content: "<о себе>";
+  content: "<about me>";
   position: relative;
   right: 82px;
   font-size: 18px;
@@ -346,7 +367,7 @@
 }
 
 .about-text-and-skills::after {
-  content: "< ⁄ о себе>";
+  content: "< ⁄ about me>";
   position: relative;
   right: 82px;
   font-size: 18px;
@@ -764,7 +785,7 @@
   width: 16px;
   height: 16px;
   padding: 6px;
-  margin: 32px auto 32px 0;
+  margin: 24px auto 24px 0;
   cursor: pointer;
   transition: all 500ms ease;
 }

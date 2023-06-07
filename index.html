@@ -59,7 +59,7 @@
           <li class="menu-list-item">
             <a
               href="#contact-me-name"
-              onclick="scrollToSection(event, '#contact-me-name', -88)"
+              onclick="scrollToSection(event, '#contact-me-name', -248)"
               >Contacts</a
             >
           </li>
@@ -87,7 +87,7 @@
               href="#about"
               onclick="scrollToSection(event, '#about', -88)"
             >
-              Обо мне
+              About me
             </a>
           </li>
           <li class="navigation-list-item">
@@ -96,16 +96,16 @@
               href="#my-works"
               onclick="scrollToSection(event, '#my-works', -88)"
             >
-              Портфолио
+              My works
             </a>
           </li>
           <li class="navigation-list-item">
             <a
               class="navigation-list-item-link"
               href="#contact-me-name"
-              onclick="scrollToSection(event, '#contact-me-name', -88)"
+              onclick="scrollToSection(event, '#contact-me-name', -248)"
             >
-              Связь
+              Contact
             </a>
           </li>
         </ul>
@@ -120,9 +120,9 @@
             <a
               class="navigation-contact-me-link"
               href="#contact-me-name"
-              onclick="scrollToSection(event, '#contact-me-name', -88)"
+              onclick="scrollToSection(event, '#contact-me-name', -248)"
             >
-              Написать мне
+              Contact Me
             </a>
           </div>
         </div>
@@ -139,12 +139,12 @@
       <section class="about" id="about">
         <div class="about-text-and-skills">
           <p class="about-text">
-            Всем привет! Меня зовут Даниил, я&nbsp;Front-end developer.
-            С&nbsp;тех пор как я&nbsp;только впервые познакомился с&nbsp;HTML,
-            я&nbsp;увидел новый мир полный возможностей, восхитился его
-            необъятной глубиной и&nbsp;до&nbsp;сих пор постоянно открываю для
-            себя его новые перспективы. Я&nbsp;понял, что it сфера&nbsp;&mdash;
-            это авангард и&nbsp;я&nbsp;хочу и&nbsp;могу стать его частью.
+            Hello! My&nbsp;name is&nbsp;Daniel, and I&rsquo;m a&nbsp;Front-end
+            developer. When I&nbsp;first got introduced to&nbsp;HTML, I&nbsp;saw
+            a&nbsp;whole new world full of&nbsp;possibilities, and I&rsquo;ve
+            been amazed by&nbsp;its vast depth ever since. I&nbsp;realized that
+            the&nbsp;IT industry is&nbsp;the avant-garde, and&nbsp;I want
+            to&nbsp;be&nbsp;a&nbsp;part of&nbsp;it.
           </p>
           <ul class="skills-list">
             <li class="skills-list-item">
@@ -159,6 +159,18 @@
             <li class="skills-list-item">
               <div class="skills-list-item-filling">Figma</div>
             </li>
+            <li class="skills-list-item">
+              <div class="skills-list-item-filling">GPT 3.5</div>
+            </li>
+            <li class="skills-list-item">
+              <div class="skills-list-item-filling">Adobe Photoshop</div>
+            </li>
+            <li class="skills-list-item">
+              <div class="skills-list-item-filling">Adobe Premiere</div>
+            </li>
+            <li class="skills-list-item">
+              <div class="skills-list-item-filling">English</div>
+            </li>
           </ul>
         </div>
       </section>
@@ -168,6 +180,7 @@
           type="button"
           name="scroll-left"
           title="scroll left"
+          hidden
         >
           <img
             src="img/swipe_left.svg"
@@ -180,13 +193,13 @@
         <div class="my-works-content">
           <ul class="my-works-menu">
             <li class="my-works-menu-item selected" data-category="all">
-              <button>Все мои работы</button>
+              <button>All works</button>
             </li>
             <li class="my-works-menu-item" data-category="layout">
-              <button>Верстка</button>
+              <button>Layout</button>
             </li>
             <li class="my-works-menu-item" data-category="design">
-              <button>Дизайн</button>
+              <button>Design</button>
             </li>
           </ul>
           <ul class="projects-list">
@@ -197,8 +210,8 @@
                 width="308px"
                 height="281px"
               />
-              <h2 class="projects-list-item-headding">Проект 1</h2>
-              <p class="projects-list-item-discription">Описание 1</p>
+              <h2 class="projects-list-item-headding">Project 1</h2>
+              <p class="projects-list-item-discription">Layout</p>
             </li>
             <li class="projects-list-item project_2" data-category="layout">
               <img
@@ -207,8 +220,8 @@
                 width="308px"
                 height="281px"
               />
-              <h2 class="projects-list-item-headding">Проект 2</h2>
-              <p class="projects-list-item-discription">Описание 2</p>
+              <h2 class="projects-list-item-headding">Project 2</h2>
+              <p class="projects-list-item-discription">Layout</p>
             </li>
             <li class="projects-list-item project_3" data-category="design">
               <img
@@ -217,8 +230,8 @@
                 width="308px"
                 height="281px"
               />
-              <h2 class="projects-list-item-headding">Проект 3</h2>
-              <p class="projects-list-item-discription">Описание 3</p>
+              <h2 class="projects-list-item-headding">Project 3</h2>
+              <p class="projects-list-item-discription">Design</p>
             </li>
             <li class="projects-list-item project_4" data-category="design">
               <img
@@ -227,8 +240,8 @@
                 width="308px"
                 height="281px"
               />
-              <h2 class="projects-list-item-headding">Проект 3</h2>
-              <p class="projects-list-item-discription">Описание 3</p>
+              <h2 class="projects-list-item-headding">Project 3</h2>
+              <p class="projects-list-item-discription">Design</p>
             </li>
           </ul>
         </div>
@@ -237,6 +250,7 @@
           type="button"
           name="scroll-right"
           title="scroll right"
+          hidden
         >
           <img
             src="img/swipe_right.svg"
@@ -256,12 +270,7 @@
                 href="https://vk.com/dyadyaotdihaet"
                 target="_blank"
               >
-                <img
-                  src="img/vk.svg"
-                  alt="ВКонтакте"
-                  width="50px"
-                  height="50px"
-                />
+                <img src="img/vk.svg" alt="vk.com" width="50px" height="50px" />
               </a>
             </li>
             <li class="social-list-item">
@@ -269,9 +278,10 @@
                 class="inst"
                 href="https://www.instagram.com/dyadyaotdihaet"
                 target="_blank"
-                ><img
+              >
+                <img
                   src="img/instagram.svg"
-                  alt="Instagram"
+                  alt="Instagram.com"
                   width="50px"
                   height="50px"
                 />
@@ -281,7 +291,7 @@
               <a class="tg" href="https://t.me/dyadyaotdihaet" target="_blank">
                 <img
                   src="img/telegram.svg"
-                  alt="Telegram"
+                  alt="Telegram.org"
                   width="50px"
                   height="50px"
                 />
@@ -292,14 +302,14 @@
       </section>
       <section class="contact-me" id="contact-me">
         <div class="contact-me-content">
-          <h2 class="contact-me-headding">Написать письмо</h2>
+          <h2 class="contact-me-headding">Contact me</h2>
           <form class="contact-me-form" action="index.html" method="post">
-            <label for="contact-me-name">Имя</label>
+            <label for="contact-me-name">Name</label>
             <input
               type="text"
               name="contact-me-name"
               id="contact-me-name"
-              placeholder="Введите свое имя"
+              placeholder="Type your name"
               maxlength="30"
               required
             />
@@ -312,11 +322,11 @@
               maxlength="254"
               required
             />
-            <label for="contact-me-message">Сообщение</label>
+            <label for="contact-me-message">Message</label>
             <textarea
               name="contact-me-message"
               id="contact-me-message"
-              placeholder="Введите текст тут"
+              placeholder="Type your message"
               maxlength="250"
               required
             ></textarea>
@@ -329,8 +339,8 @@
                   required
                 />
                 <div class="custom-checkbox"></div>
-                <span>Согласен на&nbsp;</span>
-                <a href="#">обработку данных</a>
+                <span>Consent to&nbsp;</span>
+                <a href="#">data processing</a>
               </label>
             </div>
             <div class="submit-box">
@@ -339,7 +349,7 @@
                 name="contact-me-submit"
                 class="contact-me-submit"
               >
-                Отправить
+                Submit
               </button>
             </div>
           </form>
