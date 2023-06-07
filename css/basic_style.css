@@ -356,7 +356,7 @@
 
 .my-works {
   display: flex;
-  width: 1044px;
+  width: auto;
   margin: 240px auto 0;
 }
 
@@ -398,6 +398,7 @@
   list-style: none;
   font-weight: Bold;
   cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 .my-works-menu-item:not(:last-of-type) {
@@ -436,12 +437,14 @@
 
 .projects-list {
   display: flex;
+  width: 964px;
   padding: 0;
+  overflow: hidden;
   list-style: none;
 }
 
-.projects-list .projects-list-item:not(:last-of-type) {
-  margin-right: 20px;
+.projects-list .projects-list-item:not(:first-of-type) {
+  margin-left: 20px;
 }
 
 .projects-list-item {

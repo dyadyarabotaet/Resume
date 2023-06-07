@@ -17,13 +17,58 @@
   }
 
   .my-works {
-    width: 95%;
-    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+
+  .my-works-content {
+    width: 100%;
+  }
+
+  .my-works-menu {
+    width: 138px;
+    flex-direction: column;
+    padding-right: 16px;
+    margin: 40px auto;
+    border-color: transparent;
+  }
+
+  .my-works-menu .my-works-menu-item {
+    margin: 0 auto;
+  }
+
+  .my-works-menu .my-works-menu-item:first-of-type {
+    margin-bottom: 35px;
+  }
+
+  .my-works-menu .my-works-menu-item:nth-of-type(2) {
+    margin-bottom: 24px;
+  }
+
+  .projects-list {
+    width: auto;
+    padding: 0 20px;
+    overflow: scroll;
+  }
+
+  .projects-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .projects-list .projects-list-item:not(:first-of-type) {
+    margin-left: 16px;
   }
 
   .projects-list-item img {
-    width: 100%;
-    height: 100%;
+    width: 46vw;
+    height: auto;
+    aspect-ratio: 1.096;
+  }
+
+  .my-works .scroll-left-button,
+  .my-works .scroll-right-button {
+    display: none;
   }
 
   .social {
@@ -108,6 +153,10 @@
     right: 10px;
   }
 
+  .projects-list-item img {
+    width: 45vw;
+  }
+
   .social-list {
     margin: 35px auto;
   }
@@ -179,58 +228,15 @@
   }
 
   .my-works {
-    width: 100%;
-    padding-bottom: 50px;
-    margin: 0;
     background-color: #ffffff;
-  }
-
-  .my-works-content {
-    width: 100%;
-  }
-
-  .my-works-menu {
-    width: 138px;
-    flex-direction: column;
-    padding-right: 16px;
-    margin: 40px auto;
-    border-color: transparent;
-  }
-
-  .my-works-menu .my-works-menu-item {
-    margin: 0 auto;
-  }
-
-  .my-works-menu .my-works-menu-item:first-of-type {
-    margin-bottom: 35px;
-  }
-
-  .my-works-menu .my-works-menu-item:nth-of-type(2) {
-    margin-bottom: 24px;
   }
 
   .projects-list {
     padding: 0 16px;
-    overflow: scroll;
-  }
-
-  .projects-list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .projects-list .projects-list-item:not(:last-of-type) {
-    margin-right: 16px;
   }
 
   .projects-list-item img {
     width: 90vw;
-    height: auto;
-    aspect-ratio: 1.096;
-  }
-
-  .my-works .scroll-left-button,
-  .my-works .scroll-right-button {
-    display: none;
   }
 
   .social {
