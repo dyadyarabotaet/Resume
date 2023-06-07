@@ -27,9 +27,8 @@
   }
 
   .my-works-menu {
-    width: 138px;
+    width: 160px;
     flex-direction: column;
-    padding-right: 16px;
     margin: 40px auto;
     border-color: transparent;
   }
@@ -48,12 +47,8 @@
 
   .projects-list {
     width: auto;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     overflow: scroll;
-  }
-
-  .projects-list::-webkit-scrollbar {
-    display: none;
   }
 
   .projects-list .projects-list-item:not(:first-of-type) {
@@ -216,6 +211,10 @@
     margin-top: 59px;
   }
 
+  .projects-list {
+    padding: 0 20px;
+  }
+
   .about {
     width: 95%;
     padding: 0;
@@ -233,6 +232,10 @@
 
   .projects-list {
     padding: 0 16px;
+  }
+
+  .projects-list::-webkit-scrollbar {
+    display: none;
   }
 
   .projects-list-item img {

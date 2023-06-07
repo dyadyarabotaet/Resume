@@ -391,22 +391,22 @@
   color: #b4b4b4;
 }
 
-.my-works-menu-item {
+.my-works-menu-item:not(:last-of-type) {
+  margin-right: 40px;
+}
+
+.my-works-menu-item button {
+  padding: 0;
   margin: 0;
+  border: none;
+  background: none;
   font-size: 18px;
   line-height: 24px;
   list-style: none;
   font-weight: Bold;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
-}
-
-.my-works-menu-item:not(:last-of-type) {
-  margin-right: 40px;
-}
-
-.my-works-menu-item p {
-  margin: 0;
+  color: #b4b4b4;
 }
 
 .my-works-menu .my-works-menu-item:not(.selected) {
@@ -421,11 +421,11 @@
   filter: brightness(0.7) opacity(0.5);
 }
 
-.my-works-menu .selected {
+.my-works-menu .selected button {
   color: var(--secondary-color);
 }
 
-.my-works-menu .selected p::after {
+.my-works-menu .selected button::after {
   content: "";
   display: block;
   position: relative;
