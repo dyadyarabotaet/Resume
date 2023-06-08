@@ -86,7 +86,7 @@
   transition: background-color 250ms ease;
 }
 
-.page .sticky-header.blured-backdrop {
+.page .sticky-header.transparent-background {
   background-color: transparent !important;
 }
 
@@ -106,6 +106,10 @@
   cursor: pointer;
   filter: contrast(0) brightness(2);
   transition: filter 250ms ease;
+}
+
+.sticky-header .toggle-theme-label.transparent-background {
+  background-color: transparent !important;
 }
 
 .sticky-header .toggle-theme-label:hover {
@@ -139,6 +143,10 @@
   padding: 6px;
   cursor: pointer;
   transition: filter 500ms ease;
+}
+
+.sticky-header .burger-open.transparent-background {
+  background-color: transparent !important;
 }
 
 .burger-open img {
@@ -448,6 +456,10 @@
   color: #b4b4b4;
 }
 
+.my-works-menu-item {
+  transition: margin 300ms ease-in-out;
+}
+
 .my-works-menu-item:not(:last-of-type) {
   margin-right: 40px;
 }
@@ -498,10 +510,7 @@
   padding: 0;
   overflow: hidden;
   list-style: none;
-}
-
-.projects-list .projects-list-item:not(:first-of-type) {
-  margin-left: 20px;
+  gap: 20px;
 }
 
 .projects-list-item {

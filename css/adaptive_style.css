@@ -29,7 +29,7 @@
   .my-works-menu {
     width: 160px;
     flex-direction: column;
-    margin: 40px auto;
+    margin: 40px auto 16px;
     border-color: transparent;
   }
 
@@ -37,22 +37,19 @@
     margin: 0 auto;
   }
 
-  .my-works-menu .my-works-menu-item:first-of-type {
-    margin-bottom: 35px;
+  .my-works-menu .my-works-menu-item {
+    margin-bottom: 24px;
   }
 
-  .my-works-menu .my-works-menu-item:nth-of-type(2) {
-    margin-bottom: 24px;
+  .my-works-menu .my-works-menu-item.selected {
+    margin-bottom: 35px;
   }
 
   .projects-list {
     width: auto;
     padding: 0 20px 10px;
     overflow: scroll;
-  }
-
-  .projects-list .projects-list-item:not(:first-of-type) {
-    margin-left: 16px;
+    gap: 16px;
   }
 
   .projects-list-item img {
@@ -86,6 +83,8 @@
   }
 
   .sticky-header .toggle-theme-label {
+    background-color: #333333;
+    border-radius: 20%;
     filter: none;
   }
 
@@ -95,6 +94,11 @@
 
   .sticky-header .navigation {
     width: 90%;
+  }
+
+  .sticky-header .burger-open {
+    background-color: #333333;
+    border-radius: 20%;
   }
 
   .sticky-header .burger-open img {
