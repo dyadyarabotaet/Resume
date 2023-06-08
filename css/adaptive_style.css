@@ -85,6 +85,14 @@
     background-color: transparent;
   }
 
+  .sticky-header .toggle-theme-label {
+    filter: none;
+  }
+
+  .sticky-header .toggle-theme-picture {
+    filter: brightness(2) drop-shadow(1px 1px 1px black);
+  }
+
   .sticky-header .navigation {
     width: 90%;
   }
