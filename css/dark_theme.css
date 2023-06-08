@@ -1,0 +1,125 @@
+.page.dark {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.page.dark .sticky-header {
+  background-color: #111111;
+}
+
+.page.dark .sticky-header .toggle-theme-label {
+  filter: opacity(1);
+}
+
+.page.dark .sticky-header .toggle-theme-label:hover {
+  filter: opacity(0.8);
+}
+
+.page.dark .sticky-header .toggle-theme-label:active {
+  filter: opacity(0.65);
+}
+
+.page.dark .skills-list-item-filling {
+  background-color: #222222;
+}
+
+.page.dark .social-navigation {
+  background-color: #222222;
+}
+
+.page.dark .social-navigation .social-list-item {
+  height: 50px;
+  transition: all 500ms ease;
+}
+
+.page.dark .social-navigation .social-list-item:hover {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.6));
+}
+
+.page.dark .social-navigation .social-list-item:nth-of-type(2):hover {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5));
+}
+
+.page.dark .social-navigation .social-list-item:active {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.6)) opacity(0.7);
+}
+
+.page.dark .social-navigation .social-list-item:nth-of-type(2):active {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5)) opacity(0.7);
+}
+
+.page.dark .contact-me input:not(#conact-me-checkbox, [type="submit"]),
+.page.dark .contact-me textarea {
+  color: #000000;
+  border-color: #222222;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.page.dark .contact-me input::placeholder,
+.page.dark .contact-me textarea::placeholder {
+  color: #333333;
+}
+
+.page.dark .submit-box .contact-me-submit {
+  background-color: #111111;
+}
+
+.page.dark .submit-box::after {
+  border-left: 20px solid #111111;
+}
+
+.page.dark .submit-box .contact-me-submit:hover {
+  color: white;
+  box-shadow: inset 0 0 0 3px #111111;
+}
+
+.page.dark .page-footer {
+  background-color: #111111;
+}
+
+.page.dark .header-burger {
+  background-color: #111111;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .page.dark::-webkit-scrollbar-track {
+    background-color: #111111;
+  }
+
+  .page.dark::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .page.dark::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@-moz-document url-prefix() {
+  .page.dark::-moz-scrollbar-track {
+    background-color: #111111;
+  }
+
+  .page.dark::-moz-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .page.dark::-moz-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page.dark .skills-list-item {
+    background-color: var(--main-color);
+  }
+
+  .page.dark .my-works,
+  .page.dark .contact-me {
+    background-color: var(--main-color);
+  }
+
+  .page.dark .page-footer {
+    border-color: var(--main-color);
+  }
+}
