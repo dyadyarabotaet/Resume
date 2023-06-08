@@ -105,7 +105,7 @@
   padding: 6px;
   cursor: pointer;
   filter: contrast(0) brightness(2);
-  transition: filter 250ms ease;
+  transition: filter 250ms ease, background-color 500ms ease;
 }
 
 .sticky-header .toggle-theme-label.transparent-background {
@@ -142,7 +142,7 @@
   height: 16px;
   padding: 6px;
   cursor: pointer;
-  transition: filter 500ms ease;
+  transition: filter 500ms ease, background-color 500ms ease;
 }
 
 .sticky-header .burger-open.transparent-background {
