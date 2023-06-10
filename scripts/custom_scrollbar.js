@@ -1,7 +1,7 @@
 function setCustomScrollbar() {
-  const body = document.body;
-  body.style.overflow = "auto";
-  body.style.scrollbarWidth = "thin";
+  const page = document.body;
+  page.style.overflow = "auto";
+  page.style.scrollbarWidth = "thin";
 }
 
 window.addEventListener("load", setCustomScrollbar);

@@ -7,7 +7,7 @@ filterButtons.forEach((button) => {
 
 function filterItems(e) {
   console.log("e.currentTarget", e.currentTarget);
-  for (var button of filterButtons) {
+  for (let button of filterButtons) {
     button.classList.remove("selected");
   }
 

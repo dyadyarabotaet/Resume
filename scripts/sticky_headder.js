@@ -1,7 +1,7 @@
 window.addEventListener("scroll", function () {
-  var header = document.querySelector(".sticky-header");
-  var themeButton = document.querySelector(".toggle-theme-label");
-  var burgerOpen = document.querySelector(".burger-open");
+  let header = document.querySelector(".sticky-header");
+  let themeButton = document.querySelector(".toggle-theme-label");
+  let burgerOpen = document.querySelector(".burger-open");
 
   if (window.pageYOffset > 0) {
     header.classList.remove("transparent-background");

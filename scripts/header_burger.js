@@ -1,7 +1,7 @@
 // Opening and closing menu
-var checkboxOpen = document.getElementById("toggle-burger");
-var checkboxClose = document.getElementById("toggle-burger-off");
-var burgerMenu = document.querySelector(".header-burger");
+let checkboxOpen = document.getElementById("toggle-burger");
+let checkboxClose = document.getElementById("toggle-burger-off");
+let burgerMenu = document.querySelector(".header-burger");
 
 checkboxOpen.addEventListener("change", function () {
   if (checkboxOpen.checked) {
@@ -19,9 +19,9 @@ checkboxClose.addEventListener("change", function () {
 
 // Closing menu after navigation
 
-var links = document.querySelectorAll(".menu-list-item a");
+let links = document.querySelectorAll(".menu-list-item a");
 
-for (var link of links) {
+for (let link of links) {
   link.addEventListener("click", function () {
     burgerMenu.style.top = "-750px";
     checkboxOpen.checked = false;
